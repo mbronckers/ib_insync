@@ -44,5 +44,5 @@ setup(
     package_data={'ib_insync': ['py.typed']},
     install_requires=['eventkit', 'nest_asyncio',
                       'backports.zoneinfo;python_version<"3.9"'],
-    setup_requires=['flake8']
+    setup_requires=['ruff']
 )
